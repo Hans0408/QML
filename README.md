@@ -6,8 +6,8 @@ The project compares pretrained and randomly initialized VQCs on a Bars-and-Stri
 
 ## Files
 
-- `cleaned_script_1.py` - Dense SO(n) MPS-to-VQC implementation
-- `cleaned_script_2.py` - Efficient circuit-based MPS-to-VQC implementation
+- `dense_exp.py` - Dense SO(n) MPS-to-VQC implementation
+- `efficient_exp.py` - Efficient circuit-based MPS-to-VQC implementation
 
 ## Requirements
 
