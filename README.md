@@ -18,18 +18,16 @@ pip install torch pennylane
 ## Run
 
 ```bash
-python cleaned_script_1.py
+python dense_exp.py
 ```
 
 or
 
 ```bash
-python cleaned_script_2.py
+python efficient_exp.py
 ```
 
 ## About
-
-The MPS is trained classically and its parameters are transferred directly to the VQC to provide a better initialization.
 
 MSc in Theoretical Physics  
 The University of Edinburgh, 2026
