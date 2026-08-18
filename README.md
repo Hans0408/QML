@@ -43,12 +43,12 @@ The important feature is that the MPS tensors and VQC gates are generated from t
 
 ```text
 .
-├── cleaned_script_1.py
-├── cleaned_script_2.py
+├── dense_exp.py
+├── efficient_exp.py
 └── README.md
 ```
 
-### `cleaned_script_1.py`
+### `dense_exp.py`
 
 Implements the **dense SO(n) parameterisation**.
 
@@ -56,7 +56,7 @@ The parent matrices are special orthogonal matrices constructed from trainable G
 
 This allows the trained MPS angles to be transferred directly to the corresponding VQC.
 
-### `cleaned_script_2.py`
+### `efficient_exp.py`
 
 Implements the **efficient circuit-based parameterisation**.
 
@@ -481,9 +481,6 @@ The parameterisations, numerical implementations, experiments and analysis in th
 ---
 
 ## Citation
-
-If you use or build on this work, please cite the MSc dissertation:
-
 ```text
 Hanskhel Muttur,
 "Tensor Network Pretraining in Quantum Machine Learning,"
